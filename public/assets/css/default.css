@@ -1,109 +1,81 @@
-.red_line
-	{
-		background-color: #ED001D;
-		height: 10px;
-	}
-
-#header_image 
-	{
-		filter: alpha(opacity=50);  /* IE 5-7 */
-		-moz-opacity: 0.5;          /* Netscape */
-		-khtml-opacity: 0.5;        /* Safari 1.x */
-		/*opacity: 0.5;*/
-		height: 150px;
-		line-height: 150px;
-		/*background-image: url("http://primemag.me/wp-content/uploads/2014/07/technology.jpg") ;*/
-		background-color: black;
-	}
-
-#brand 
-	{
-		color: White;
-		font-size: 150%;
-		/*vertical-align: middle;*/
-	}
-
-.header_content 
-	{
-/*		padding-top: 25px;*/
-	}
-
-.button_red 
-	{
-		background-color: #ED001D;
-		color: #FFF;		
-	}
-
-.grey
-	{
-		background-color: #f4f4f4;
-	}
-
- #header_nav ul { 
-	margin: 0; 
-	padding: 10px; 
-	list-style-type: none; 
-	/*text-align: center; */
-	background-color: #fff; 
-	} 
- 
-#header_nav ul li {  
-	display: inline;
-	font-size: 120%; 
-	} 
- 
-#header_nav ul li a { 
-	text-decoration: none; 
-	padding: 12px 1em;
-	color: #888; 
-	background-color: #fff;
-	height: 80px;
-
-	} 
- 
-#header_nav ul li a:hover { 
-	color: #fff; 
-	background-color: #ED001D; 
-	} 
-
-#banner_image{
-
-	width: 830px;
-	height: 310px;
-	text-align: center;
-	color: #888;
-	background-color: #343434;
-	font-size: 250%;
-	line-height: 310px;
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #CCC;
+	z-index: 999;
 }
 
-#banner_image p 
-	{
-		vertical-align: middle;
+	header ul {
+		margin: 0;
+		padding: 10px;
+		list-style-type: none;
+		text-align: center;
+		background-color: #fff;
 	}
 
-.content
-	{
-		/*height: 800px;*/
-		/*padding-right: 500px;*/
-		padding-left: 100px;
-		padding-top: 2%;
-		padding-bottom: 2%;
+		header ul li {
+			display: inline;
+			font-size: 120%;
+		}
 
-	}
+			header ul li a {
+				text-decoration: none;
+				padding: 12px 1em;
+				color: #888;
+				background-color: #fff;
+				height: 80px;
+			}
 
-footer{
+			header ul li a:hover {
+				color: #FFF;
+				background-color: #BF1E2E;
+				text-decoration: none;
+			}
+
+footer {
 	margin-top: 5%;
-	height: 200px;
-	background-color: black;
-	color: #FFF;
+	background-color: #FFF;
+	color: #000;
 	text-align: center;
 	vertical-align: middle;
 }
+	footer p { padding-top: 10px; }
+	footer img {
+		width: 100px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 
+.red_line {
+	background-color: #BF1E2E;
+	height: 10px;
+}
 
+.button_red {
+	background-color: #D9182D;
+	color: #FFF;
+}
 
+#folder center { padding-top: 35px; }
 
+#schedule .panel-heading { font-size: 18px; }
 
+.important { color: #BF1E2E; }
 
+.panel-red { border-color: #BF1E2E; }
+	.panel-red .panel-heading {
+		background-color: #BF1E2E;
+		border-color: #BF1E2E;
+		color: #FFF;
+	}
 
+.section {
+	padding-bottom: 60px;
+	padding-top: 20px;
+}
+	.section:nth-child(even) {
+		background-color: #F8F8F8;
+	}

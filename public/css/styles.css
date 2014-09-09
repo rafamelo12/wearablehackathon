@@ -37,14 +37,12 @@ p em {
 #schedule .panel-heading { font-size: 18px; }
 #schedule .table td:first-child { font-weight: bold; }
 
-#sponsors .row {
-	text-align: center;
-	margin-top: 40px;
-}
-#sponsors img {
-	max-width: 150px;
-	margin: 0 20px;
-}
+#sponsors { margin-bottom: 40px; }
+	#sponsors .row { text-align: center; }
+	#sponsors img {
+		max-width: 150px;
+		margin: 20px;
+	}
 
 footer {
 	margin-top: 5%;

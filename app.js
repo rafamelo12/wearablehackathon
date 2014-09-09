@@ -4,7 +4,6 @@
  * Module dependencies.
  */
 var express = require('express'),
-  // routes = require('./routes'),
   http = require('http'),
   path = require('path');
 var app = express();
@@ -27,7 +26,9 @@ if ('development' === app.get('env')) {
   app.use(express.errorHandler());
 }
 
-require('./routes/routes.js')(app);
+app.get('/', function(req, resp) {
+  resp.render('index.ejs');
+});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

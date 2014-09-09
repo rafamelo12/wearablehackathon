@@ -1,7 +1,7 @@
 {
-  "name":"Node-CacheApp",
-  "version": "0.0.1",
-  "description": "A sample nodejs app using Elastic Caching Service for Bluemix",
+  "name":"WearableHackathon",
+  "version": "0.1.0",
+  "description": "Website for the Wearable Hackathon",
   "scripts": {
     "start": "node app.js"
   },

@@ -41,6 +41,7 @@ p em {
 
 #schedule .panel-heading { font-size: 18px; }
 #schedule .table td:first-child { font-weight: bold; }
+#schedule .table ul { margin-bottom: 0; }
 
 #sponsors { margin-bottom: 40px; }
 	#sponsors .row { text-align: center; }
@@ -53,7 +54,7 @@ p em {
 	height: 400px;
 	width: 90%;
 	margin: 0 auto;
-	border: 1px solid #333;
+	border: 1px solid #ADADAD;
 }
 #venue .content h3 {
 	font-weight: 200;

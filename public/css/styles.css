@@ -43,12 +43,18 @@ p em {
 #schedule .table td:first-child { font-weight: bold; }
 #schedule .table ul { margin-bottom: 0; }
 
-#sponsors { margin-bottom: 40px; }
-	#sponsors .row { text-align: center; }
-	#sponsors img {
-		max-width: 150px;
-		margin: 20px;
-	}
+#mentors .media { margin-top: 0; }
+#mentors img.media-object { max-width: 140px; }
+#mentors .media-body h3 { margin-top: 0; }
+#mentors .media-body p { font-style: italic; }
+
+#sponsors .row { text-align: center; }
+	#sponsors .row h2 { margin-bottom: 10px; }
+#sponsors img {
+	max-height: 50px;
+	margin: 20px;
+	margin-top: 0px;
+}
 
 #venue #venue-map {
 	height: 400px;

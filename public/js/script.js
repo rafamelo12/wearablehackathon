@@ -2,6 +2,9 @@ $(function() {
   setupHeader();
   initializeVenueMap();
 
+  var width = $(window).width();
+  if (width >= 768) { pinTweets(); }
+
   $("nav ul li a[href^='#']").on('click', function(e) {
     e.preventDefault();
     var hash = this.hash;
@@ -19,6 +22,16 @@ $(function() {
 $(window).resize(function() {
   setupHeader();
 });
+
+function pinTweets() {
+  controller = new ScrollMagic();
+  var scene = new ScrollScene({
+    triggerElement: "#trigger1",
+    triggerHook: 0.07}
+    )
+    .setPin("#contact")
+    .addTo(controller);
+}
 
 function setupHeader() {
   var header = $('#home center');

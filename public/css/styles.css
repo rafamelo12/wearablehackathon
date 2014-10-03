@@ -43,6 +43,9 @@ em {
 #schedule .table td:first-child { font-weight: bold; }
 #schedule .table ul { margin-bottom: 0; }
 
+#prizes .well { margin-top: 50px; }
+	#prizes .well h3 { margin-top: 10px; }
+
 #mentors .media,
 #judges .media  { margin-top: 0; }
 
@@ -54,6 +57,9 @@ em {
 
 #mentors .media-body p,
 #judges .media-body p  { font-style: italic; }
+
+#judges .row  { margin-bottom: 30px; }
+#judges .row:last-child  { margin-bottom: 0px; }
 
 #sponsors .row {
 	text-align: center;
@@ -90,8 +96,8 @@ em {
 }
 
 #techs .tech-description {
-	text-align: justify;
 	padding: 0 20px;
+	font-style: italic;
 }
 #techs .tech-description img {
 	max-width: 150px;
@@ -120,7 +126,7 @@ footer {
 }
 	footer p { padding-top: 10px; }
 	footer img {
-		width: 100px;
+		height: 35px;
 		margin: 0px 10px 10px 10px;
 	}
 

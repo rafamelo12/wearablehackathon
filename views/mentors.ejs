@@ -3,35 +3,21 @@
       <h1>Mentors</h1>
     </div>
 
-    <div class="row">
-      <div class="col-md-5 col-sm-offset-1 media">
-        <img src="img/mentors/john.jpg" class="img-circle pull-left media-object" />
-        <div class="media-body">
-          <h3>
-            John Chibuk <br />
-            <small>(Kiwi Wearables)</small>
-          </h3>
-          <p class="media-body">
-            R&amp;D + Ops + Tech at Kiwi, background with Toyota, Shell and
-            SunLife Financial in large scale sensor monitoring systems.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-5 media">
-        <img src="img/mentors/raul.jpg" class="img-circle pull-left media-object" />
-        <div class="media-body">
-          <h3>
-            Raul F. Chong<br />
-            <small>(IBM)</small>
-          </h3>
-          <div class="media-body">
-            <p>
-              Big Data, Cloud and Bluemix expert. 17 years with IBM. Organizer
-              of the Toronto-SMAC meetup and Big Data University community
-              leader.
-            </p>
-          </div>
-        </div>
-      </div>
+    <div class="container-fluid">
+      <ul class="row">
+
+          <% for(var i=0; i<mentors.length; i++) { %>
+            <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+              <img src="<%= mentors[i].picture %>" class="img-circle"
+                   data-container="body" data-toggle="popover"
+                   data-placement="bottom" data-html="true"
+                   data-content="<%= mentors[i].bio %>"
+                   data-title="<%= mentors[i].name %><br />
+                               <small><%= mentors[i].company %></small>"
+              />
+            </li>
+          <% } %>
+
+      </ul>
     </div>
 </div>

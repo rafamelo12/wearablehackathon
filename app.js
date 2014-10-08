@@ -26,8 +26,12 @@ if ('development' === app.get('env')) {
   app.use(express.errorHandler());
 }
 
+var mentors = require('./mentors');
+
 app.get('/', function(req, resp) {
-  resp.render('index.ejs');
+  resp.render('index.ejs', {
+    mentors: mentors.mentors
+  });
 });
 
 http.createServer(app).listen(app.get('port'), function(){

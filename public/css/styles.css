@@ -46,20 +46,25 @@ em {
 #prizes .well { margin-top: 50px; }
 	#prizes .well h3 { margin-top: 10px; }
 
-#mentors .media,
-#judges .media  { margin-top: 0; }
-
-#mentors img.media-object,
-#judges img.media-object  { max-width: 140px; }
-
-#mentors .media-body h3,
-#judges .media-body h3  { margin-top: 0; }
-
-#mentors .media-body p,
-#judges .media-body p  { font-style: italic; }
-
 #judges .row  { margin-bottom: 30px; }
-#judges .row:last-child  { margin-bottom: 0px; }
+	#judges .row:last-child  { margin-bottom: 0px; }
+
+#judges .media { margin-top: 0; }
+	#judges img.media-object { max-width: 140px; }
+	#judges .media-body h3 { margin-top: 0; }
+	#judges .media-body p  { font-style: italic; }
+
+#mentors ul {
+	padding: 0;
+	margin: 0;
+}
+
+#mentors li {
+	list-style:none;
+	margin-bottom:25px;
+}
+
+.popover-title { font-size: 20px; }
 
 #sponsors .row {
 	text-align: center;
@@ -118,6 +123,13 @@ em {
 		list-style-type: none;
 		padding-left: 10px;
 	}
+
+#register {
+	border-top: 1px solid #BF1E2E;
+	margin-top: 35px;
+	padding-top: 20px;
+}
+	#register .btn { width: 100%; }
 
 footer {
 	margin-top: 5%;

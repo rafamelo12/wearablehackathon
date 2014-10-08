@@ -5,6 +5,8 @@ $(function() {
   var width = $(window).width();
   if (width >= 768) { pinTweets(); }
 
+  $('[data-toggle="popover"]').popover({ trigger: 'hover' });
+
   $("nav ul li a[href^='#']").on('click', function(e) {
     e.preventDefault();
     var hash = this.hash;

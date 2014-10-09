@@ -15,6 +15,6 @@ exports.mentors = [
     name: "Luiz Aoqui",
     company: "IBM",
     picture: "img/mentors/luiz.jpg",
-    bio: "Web, mobile and cloud developer at IBM. Graduated in Computer Engineering at University of São Paulo, Brazil. Winner of the Google Chorme Apps Hackathon."
+    bio: "Web, mobile and cloud developer at IBM. Graduated in Computer Engineering at University of São Paulo, Brazil. Winner of the Google Chrome Apps Hackathon."
   }
 ];

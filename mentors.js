@@ -16,5 +16,11 @@ exports.mentors = [
     company: "IBM",
     picture: "img/mentors/luiz.jpg",
     bio: "Web, mobile and cloud developer at IBM. Graduated in Computer Engineering at University of São Paulo, Brazil. Winner of the Google Chrome Apps Hackathon."
+  },
+  {
+    name: "Leon Katsnelson",
+    company: "IBM",
+    picture: "img/mentors/leon.jpg",
+    bio: "Director and CTO of Information Management and Emerging Technologies at IBM."
   }
 ];

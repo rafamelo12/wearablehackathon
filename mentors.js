@@ -22,5 +22,11 @@ exports.mentors = [
     company: "IBM",
     picture: "img/mentors/leon.jpg",
     bio: "Director and CTO of Information Management and Emerging Technologies at IBM."
+  },
+  {
+    name: "Stefan Kolody",
+    company: "Freescale",
+    picture: "img/mentors/stefan.jpg",
+    bio: "3 years of FAE experience with Arrow Electronics. 11 years of experience as Hardware Design Engineer. Master of Science Degree in Computer Science and Informatics from the Technical University of Kosice, Slovakia."
   }
 ];

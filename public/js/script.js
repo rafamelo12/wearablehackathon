@@ -19,11 +19,19 @@ $(function() {
 
     $('.navbar-collapse').removeClass('in');
   });
+
+  $('#very-important-pop-up').hide();
+  setTimeout(showPopup, 2000);
 });
 
 $(window).resize(function() {
   setupHeader();
 });
+
+function showPopup() {
+  var popup = $('#very-important-pop-up');
+  popup.slideDown(600);
+}
 
 function pinTweets() {
   controller = new ScrollMagic();

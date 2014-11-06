@@ -12,6 +12,7 @@ em {
 }
 
 #very-important-pop-up {
+	width: 250px;
 	background-color:#BF1E2E;
 	padding: 15px 40px;
 	text-align: left;
@@ -31,6 +32,8 @@ em {
 		right: 15px;
 		opacity: 0.4;
 	}
+
+#very-important-pop-up.blue { background-color:#1E7CBF; }
 
 #home {
 	background-image: url(/img/header_bg.jpg);
@@ -66,6 +69,9 @@ em {
 
 #prizes .well { margin-top: 50px; }
 	#prizes .well h3 { margin-top: 10px; }
+
+#prizes section { margin-bottom: 70px; }
+#prizes section:last-child { margin-bottom: 0px; }
 
 #mc .row,
 #judges .row  { margin-bottom: 30px; }
@@ -110,7 +116,7 @@ em {
 	margin: 20px;
 	margin-top: 0px;
 }
-#sponsors #champion-sponsors   img { max-height: 130px; }
+#sponsors #champion-sponsors   img { max-height: 130px; max-width: 140px; }
 #sponsors #winning-sponsors    img { max-height: 60px; }
 #sponsors #all-star-sponsors   img { max-height: 40px; }
 #sponsors #supporters-sponsors img {

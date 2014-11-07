@@ -58,5 +58,11 @@ exports.mentors = [
     company: "MeU",
     picture: "img/mentors/robert.jpg",
     bio: "Robert Tu is the founder of MeU, a company developing interactive and reactive clothing. Robert is an electrical engineer (Bachelor of Applied Science from the University of Waterloo). He worked in the manufacturing field and IT sales at IBM before graduating from OCAD University and founding MeU."
+  },
+  {
+    name: "Dr. James Smith",
+    company: "Ryerson University",
+    picture: "img/mentors/james.png",
+    bio: "Specializing in electrical and biomedical engineering. His research combines aspects of embedded systems, robotics and biomechanics."
   }
 ];

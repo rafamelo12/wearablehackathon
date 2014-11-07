@@ -24,6 +24,12 @@ exports.mentors = [
     bio: "Director and CTO of Information Management and Emerging Technologies at IBM."
   },
   {
+    name: "Lila Adamec",
+    company: "IBM",
+    picture: "img/mentors/lila.jpg",
+    bio: "Ecosystem Development managing the IBM Innovation Centers across Canada. Working with Business Partners, entrepreneurs, startups, and incubators."
+  },
+  {
     name: "Stefan Kolody",
     company: "Freescale",
     picture: "img/mentors/stefan.jpg",

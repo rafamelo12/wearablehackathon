@@ -73,21 +73,13 @@ em {
 #prizes section { margin-bottom: 70px; }
 #prizes section:last-child { margin-bottom: 0px; }
 
-#mc .row,
-#judges .row  { margin-bottom: 30px; }
-	#mc .row:last-child,
-	#judges .row:last-child  { margin-bottom: 0px; }
+.long-bio .row  { margin-bottom: 30px; }
+	.long-bio .row:last-child  { margin-bottom: 0px; }
 
-#mc .media,
-#judges .media { margin-top: 0; }
-	#mc img.media-object,
-	#judges img.media-object { max-width: 140px; }
-
-	#mc .media-body h3,
-	#judges .media-body h3 { margin-top: 0; }
-
-	#mc .media-body p,
-	#judges .media-body p  { font-style: italic; }
+.long-bio .media { margin-top: 0; }
+	.long-bio img.media-object { max-width: 140px; }
+	.long-bio .media-body h3   { margin-top: 0; }
+	.long-bio .media-body p    { font-style: italic; }
 
 #mentors ul {
 	padding: 0;

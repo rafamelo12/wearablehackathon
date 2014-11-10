@@ -63,6 +63,8 @@ em {
 		margin-top: 20px;
 	}
 
+	#home .actions .btn { width: 180px; }
+
 #schedule .panel-heading { font-size: 18px; }
 #schedule .table td:first-child { font-weight: bold; }
 #schedule .table ul { margin-bottom: 0; }
@@ -162,7 +164,10 @@ em {
 	margin-top: 35px;
 	padding-top: 20px;
 }
-	#register .btn { width: 100%; }
+	#register .btn {
+		width: 100%;
+		margin-bottom: 5px;
+	}
 
 footer {
 	margin-top: 5%;

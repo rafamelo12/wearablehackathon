@@ -103,6 +103,7 @@ em {
 .popover-title { font-size: 20px; }
 
 #organizers li { text-align: center; }
+#organizers .name { font-size: 20px; }
 
 #sponsors .row {
 	text-align: center;

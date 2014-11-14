@@ -6,12 +6,6 @@ exports.mentors = [
     bio: "R&D + Ops + Tech at Kiwi, background with Toyota, Shell and SunLife Financial in large scale sensor monitoring systems."
   },
   {
-    name: "Raul F. Chong",
-    company: "IBM",
-    picture: "img/mentors/raul.jpg",
-    bio: "Big Data, Cloud and Bluemix expert. 17 years with IBM. Organizer of the Toronto-SMAC meetup and Big Data University community leader."
-  },
-  {
     name: "Luiz Aoqui",
     company: "IBM",
     picture: "img/mentors/luiz.jpg",
@@ -22,12 +16,6 @@ exports.mentors = [
     company: "IBM",
     picture: "img/mentors/leon.jpg",
     bio: "Director and CTO of Information Management and Emerging Technologies at IBM."
-  },
-  {
-    name: "Lila Adamec",
-    company: "IBM",
-    picture: "img/mentors/lila.jpg",
-    bio: "Ecosystem Development managing the IBM Innovation Centers across Canada. Working with Business Partners, entrepreneurs, startups, and incubators."
   },
   {
     name: "Stefan Kolody",

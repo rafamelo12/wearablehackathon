@@ -13,6 +13,7 @@ em {
 
 #very-important-pop-up {
 	width: 250px;
+	color: #FFF;
 	background-color:#BF1E2E;
 	padding: 15px 40px;
 	text-align: left;
@@ -26,6 +27,7 @@ em {
 	box-shadow:         0px 0px 18px 0px rgba(50, 50, 50, 0.75);
 }
 	#very-important-pop-up a { color: #FFF; }
+	#very-important-pop-up a:hover { color: #C3C3C3; }
 	#very-important-pop-up .close {
 		position: absolute;
 		top: 5px;
@@ -83,19 +85,24 @@ em {
 	.long-bio .media-body h3   { margin-top: 0; }
 	.long-bio .media-body p    { font-style: italic; }
 
+#organizers ul,
 #mentors ul {
 	padding: 0;
 	margin: 0;
 }
 
+#organizers li,
 #mentors li {
 	list-style:none;
 	margin-bottom:25px;
 }
 
+#organizers .img-circle,
 #mentors .img-circle { width: 90%;}
 
 .popover-title { font-size: 20px; }
+
+#organizers li { text-align: center; }
 
 #sponsors .row {
 	text-align: center;
@@ -215,6 +222,12 @@ footer {
 }
 
 .page-header { border-bottom: 1px solid #bf1e2e; }
+
+.page-sub-header {
+	border-bottom: 1px solid #CCC;
+	margin: 80px 0 20px 20px;
+}
+#mentors .page-sub-header { margin-top: 20px; }
 
 .red_line {
 	background-color: #BF1E2E;
